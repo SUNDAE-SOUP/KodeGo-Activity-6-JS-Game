@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#body {
+    background: linear-gradient(to left, skyblue, salmon);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#title {
+    text-align: center;
+}
+#logo {
+    width: 10%;
+    height: 10%;
+    margin-top: 10px;
+}
+/* #hands {
+    
+} */
+button > img {
+    width: 40%;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+}
+#hands > button {
+    background-color: transparent;
+    width: 20%;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+}
+.input-box {
+    height: 40vh;
+    width: 40vh;
+    background-color: transparent;
+}
+#Bot-hands {
+    display: none;
+}
+.input-box > label {
+    display: block;
+}
+#finalResult {
+    text-align: center;
+}
+#finalResult > h1 {
+    font-size: 100px;
+}
